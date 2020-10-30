@@ -1,0 +1,22 @@
+.specs-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: left;
+  text-align: right;
+  border-radius: 15px;
+  width: 90%;
+
+  h1 {
+    text-shadow: black 0px 0px 15px;
+    font-size: 40px;
+    color: #c1011e;
+    font-weight: bold;
+  }
+  h2 {
+    text-shadow: black 0px 0px 10px;
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+}

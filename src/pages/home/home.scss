@@ -1,0 +1,141 @@
+.home {
+  overflow: hidden;
+  &-main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+    height: 100vh;
+  }
+  &-vehicle-cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c1011e;
+    height: 100vh;
+    h1 {
+      color: white;
+      font-weight: bold;
+    }
+    img {
+      width: 50vw;
+    }
+  }
+  &-vehicle-1 {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 10px #313131;
+    background-color: #c1011e;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+      columns: white;
+      font-weight: bold;
+      size: 50px;
+    }
+    img {
+      width: 50vw;
+    }
+    &-model {
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+    &-specs {
+      background-color: rgba($color: #313131, $alpha: 0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+  }
+  &-vehicle-2 {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 10px #313131;
+    background-color: #313131;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+      height: 80vh;
+      width: 100vw;
+    }
+    &-model {
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+    &-specs {
+      clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
+
+      background-color: rgba($color: #313131, $alpha: 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+  }
+  &-vehicle-3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #c1011e;
+    border-top: solid 10px #313131;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+      height: 80vh;
+      width: auto;
+    }
+    &-model {
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+    &-specs {
+      background-color: rgba($color: #313131, $alpha: 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: row;
+      justify-content: center;
+      width: 50%;
+    }
+  }
+  &-vehicle__column {
+    height: 100%;
+    background-color: black;
+  }
+  &-about {
+    h3 {
+      margin-top: 100px;
+      font-weight: bold;
+      color: white;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-top: solid 10px #c1011e;
+    background-color: #313131;
+    height: 50vh;
+  }
+}
