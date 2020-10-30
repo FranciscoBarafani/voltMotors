@@ -125,8 +125,9 @@
     background-color: black;
   }
   &-about {
+    height: 150px;
     h3 {
-      margin-top: 100px;
+      margin-top: 50px;
       font-weight: bold;
       color: white;
     }
@@ -136,6 +137,5 @@
     justify-items: center;
     border-top: solid 10px #c1011e;
     background-color: #313131;
-    height: 50vh;
   }
 }
